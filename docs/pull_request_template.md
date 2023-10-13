@@ -22,18 +22,11 @@ Please describe how the reviewer can test this work. Provide details for both th
 
 ## Things for the Reviewer to Know
 
-What areas of the platform does this PR affect?
-- [ ] Frontend
-  - [ ] Vue
-  - [ ] React
-- [ ] Backend
-
 What kind of tests were written in this PR?
-- [ ] Unit
-- [ ] Integration
-- [ ] Jest
-- [ ] React Testing Libary
-- [ ] Cypress e2e
+- [ ] **Unit** - An isolated test of functionality with mocked data
+- [ ] **Integration** - A test of multi-system functionality with real data
+- [ ] **e2e** - A test from cradle to grave evaluates the entire flow of the application
+- [ ] **Story** - A ladle story of an isolated component or page
 - [ ] If none of the above, please explain why here:
 
 Are there documents affected by this work that have been updated or created (for example, the README.me, a Work Plan, or the [Programmer Guide](https://cloudplus.atlassian.net/wiki/spaces/CLOUDPLUS/pages/9830401/Programmer+Guide))?
